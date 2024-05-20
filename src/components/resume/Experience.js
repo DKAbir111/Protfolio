@@ -9,55 +9,33 @@ const Experience = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="py-12 font-titleFont flex gap-20"
     >
+  
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - 2024</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
-          />
-          <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
-          />
-          <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
-        </div>
-      </div>
-      <div>
-        <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
+            title="Software Engineer Intern"
+            subTitle="Bussiness Atomation Ltd. (2024)"
             result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des=" Develop both Front End and Back end Features and Test
+            • Assist Troubleshoot and debugging Issue, REST API
+            • Version Control Using Github and Git
+            • Deploy Web Application Using Docker"
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Research Assistant"
+            subTitle="Daffodil International University 2022-2023"
+            result="Natural Language Processing Club"
+            des="NLP, or Natural Language Processing, is a field of artificial intelligence that equips computers to understand, manipulate, and generate human language. This technology powers many of the conveniences we use today, like chatbots, voice assistants, and machine translation."
           />
           <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Lab Assistant"
+            subTitle="Daffodil International University 2022-2023"
+            result="Computer and Programming Club"
+            des="DIU CPC, the largest club at Daffodil International University, empowers students to explore computer science and develop their programming skills through workshops and events. Led by faculty advisors, the club fosters a supportive environment for beginners and enthusiasts alike."
           />
         </div>
       </div>

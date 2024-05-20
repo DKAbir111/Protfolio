@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        I maintain a strong academic record with a CGPA of 3.90. I am an expert in web development, specializing in MERN stack development. I am interning as a software engineer at Business Automation Limited and gaining hands-on experience in industry-standard projects. I can adeptly manage Software products to deliver comprehensive solutions tailored to client needs.
+        I have graduated maintaining a strong academic record with a CGPA of 3.90. I am an expert in web development, specializing in MERN stack development. I am interning as a software engineer at Business Automation Limited and gaining hands-on experience in industry-standard projects. I can adeptly manage Software products to deliver comprehensive solutions tailored to client needs.
         </p>
       </div>
      {/* Media */}
